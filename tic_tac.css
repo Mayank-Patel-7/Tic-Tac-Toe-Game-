@@ -1,0 +1,38 @@
+body
+{
+	background-color : rgb(45, 214, 166);
+	text-align: center;
+}
+
+#container
+{
+	
+	height:350px;
+	width:450px ;
+	justify-content: center;
+	align-items: center;
+	display : flex;
+}
+#game
+{
+	height:330px;
+	width:430px ;
+	display: flex;
+	justify-content : center;
+	align-items:center;
+	flex-wrap:wrap
+	  /* rgb  ( 42, 127, 98);
+	 */
+}
+.box
+{
+	height: 100px;
+	width: 100px;
+	border-radius: 1rem;
+	font-size: 1rem;
+	background-color:#ffffc7;
+	margin: 10px;
+	justify-content : space-around;
+}
+	
+ 
